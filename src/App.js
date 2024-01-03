@@ -1,11 +1,15 @@
 import React from "react"
-import { Text, View } from "react-native"
+import { View } from "react-native"
 
-import './components/Primeiro'
+import CompPadrao, { Comp1, Comp2 } from "./components/Mult"
 import Primeiro from "./components/Primeiro"
 
 export default () => (
     <View>
+       <CompPadrao />
+       <Comp1 />
+       <Comp2 />
+
         <Primeiro />
     </View>
 )
