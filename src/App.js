@@ -9,6 +9,12 @@ import Aleatorio from "./components/Aleatorio"
 export default () => (
     <View style={style.App}>
         <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
+        <Aleatorio min={1} max={60} />
         {/*<CompPadrao />
         <MinMax min={3} max={20} />
         <MinMax min={1} max={94} />
