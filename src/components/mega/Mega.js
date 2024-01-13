@@ -27,6 +27,22 @@ export default class Mega extends Component {
         this.setState({ numeros })
     }
 
+    //gerarNumeros = () => {
+    //   const { qtdeNumeros } = this.state
+    //   const numeros = []
+
+    //   for (let i = 0; i < qtdeNumeros; i++) {
+    //       const n = this.gerarNumeroNaoContido(numeros)
+    //        numeros.push(n)
+    //    }
+
+    //    numeros.sort((a, b) => a - b)
+
+    //    this.setState({ numeros })
+
+    //}
+
+
     render() {
         return (
             <>
